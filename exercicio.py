@@ -26,7 +26,7 @@ for x in range(np):
 
         sexo = (input('Seu sexo é masculino ou feminino? ')).upper()
         if sexo == 'M' or sexo == 'MASCULINO':
-            sexom = sexof + 1
+            sexom = sexom + 1
         if sexo == 'F' or sexo == 'FEMININO':
             sexof = sexof + 1
         print('\n')
